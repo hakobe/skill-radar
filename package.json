@@ -1,8 +1,8 @@
 {
-  "name": "my-skill-radar",
+  "name": "skill-radar",
   "private": true,
   "version": "0.0.1",
-  "description": "my skill radar",
+  "description": "skill radar",
   "main": "lib/index.js",
   "scripts": {
     "start": "webpack-serve ./webpack.config.js --open",
