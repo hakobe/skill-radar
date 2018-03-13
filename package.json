@@ -1,20 +1,14 @@
 {
-  "name": "tech-rader",
+  "name": "my-tech-rader",
   "private": true,
   "version": "0.0.1",
-  "description": "tech-rader",
+  "description": "my tech-rader",
   "main": "lib/index.js",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack-serve ./webpack.config.js --open",
     "build": "webpack --config webpack.config.js",
     "lint": "eslint src"
   },
-  "keywords": [
-    "pokemon"
-  ],
-  "files": [
-    "lib"
-  ],
   "author": "hakobe <hakobe@gmail.com>",
   "license": "MIT",
   "devDependencies": {
@@ -26,6 +20,8 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "clean-webpack-plugin": "^0.1.17",
+    "css-loader": "^0.28.8",
+    "dsv-loader": "^2.0.0",
     "eslint": "^4.14.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-config-standard": "^11.0.0-beta.0",
@@ -36,16 +32,20 @@
     "eslint-plugin-react": "^7.5.1",
     "eslint-plugin-standard": "^3.0.1",
     "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
     "npm-run-all": "^4.1.2",
     "prettier": "^1.9.2",
-    "css-loader": "^0.28.8",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.3",
-    "webpack": "^4.1.1"
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-serve": "^0.2.0"
   },
   "dependencies": {
+    "chart.js": "^2.7.2",
     "classnames": "^2.2.5",
     "react": "^16.2.0",
+    "react-chartjs-2": "^2.7.0",
     "react-dom": "^16.2.0"
   }
 }

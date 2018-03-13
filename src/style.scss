@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+
+ul#raders  {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  li {
+    border: 1px solid #eee;
+    padding: 5px;
+    margin: 5px 10px 10px 5px;
+    div {
+      font-size: 80%;
+      margin: 5px 0 0 5px
+    }
+  }
+}
