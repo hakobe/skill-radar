@@ -7,10 +7,10 @@ import dataList from './data.tsv'
 
 const axios = [
   '自分の興味',
-  'Web技術者からの人気',
   'すぐに役立つか',
   '長く役立つか',
-  'ブルーオーシャン度'
+  'ブルーオーシャン度',
+  'Web技術者からの人気'
 ]
 
 const chartColors = {
