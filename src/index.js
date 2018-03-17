@@ -10,7 +10,7 @@ const axios = [
   'すぐに役立つか',
   '長く役立つか',
   'ブルーオーシャン度',
-  'Web技術者からの人気'
+  'Web技術者人気'
 ]
 
 const chartColors = {
